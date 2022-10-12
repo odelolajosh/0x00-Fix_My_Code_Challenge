@@ -24,10 +24,6 @@ class Square():
         """ Documentation """
         return "{}/{}".format(self.width, self.height)
 
-    def __repr__(self):
-        """ Documentation """
-        return "Square(width={}, height={})".format(self.width, self.height)
-
 
 if __name__ == "__main__":
     s = Square(width=12, height=9)
